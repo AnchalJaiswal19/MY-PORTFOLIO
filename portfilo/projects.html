@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&display=swap");
+  </style>
+  
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: #7B6D8D;
+        color: white;
+      }
+
+      .head {
+        font-size: 1.2rem;
+        margin: 44px 0px 0px 0px;
+        text-align: center;
+        color: #36151E;
+        font-family: "Baloo Bhaina 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .about {
+        font-size: 2.8rem;
+        margin: -10px 0px 0px 350px;
+        color: #36151E;
+        font-family: "Baloo Bhaina 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+      }
+
+
+
+      .section {
+        display: flex;
+        justify-content: space-evenly;
+        margin: -36px 0px 0px 0px;
+      }
+      .first {
+        height: 74vh;
+        width: 26vw;
+        border: 2px solid rgb(77, 76, 76);
+        border-radius: 20px;
+        background-color: #593F62;
+        margin: 10px 20px 10px 50px;
+        box-shadow: 0px 0px 5px 6px rgb(97, 97, 97);
+      }
+      .first:hover {
+        box-shadow: -4px 4px 5px 6px rgb(95, 95, 95);
+        height: 75vh;
+        width: 26.5vw;
+        cursor: pointer;
+      }
+      .second {
+        height: 74vh;
+        width: 26vw;
+        border: 2px solid rgb(77, 76, 76);
+        border-radius: 20px;
+        background-color: #593F62;
+        margin: 10px 20px 10px 50px;
+        box-shadow: 0px 0px 5px 6px rgb(97, 97, 97);
+      }
+      .second:hover {
+        box-shadow: -4px 4px 5px 6px rgb(95, 95, 95);
+        height: 75vh;
+        width: 26.5vw;
+        cursor: pointer;
+        
+      }
+
+      .third {
+        height: 74vh;
+        width: 26vw;
+        border: 2px solid rgb(77, 76, 76);
+        border-radius: 20px;
+        background-color: #593F62;
+        margin: 10px 20px 10px 50px;
+        box-shadow: 0px 0px 5px 6px rgb(97, 97, 97);
+      }
+      .third:hover {
+        box-shadow: -4px 4px 5px 6px rgb(95, 95, 95);
+        height: 75vh;
+        width: 26.5vw;
+        cursor: pointer;
+      }
+      .button {
+        padding:30px 0px 40px 0px;
+       
+      }
+      
+      .heading .btn {
+        padding: 12px;
+        background: white;
+        color: black;
+        border: 2px solid white;
+        border-radius: 80px;
+        font-size: 20px;
+        cursor: pointer;
+        width: 100px;
+        
+      }
+      .btn:hover{
+        width:102px;
+        background-color:#593F62;
+        color:white;
+        padding: 13px;
+        font-size: 21px;
+        border: 2px solid #593F62;
+      }
+      .heading {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .about {
+        font-size: 3rem;
+        font-weight: bold;
+        margin: -35px 0px 0px 350px;
+      }
+      .img1 img {
+        height: 330px;
+        width: 380px;
+        border: none;
+        border-radius: 20px;
+        margin: 10px;
+      }
+      .img2 img {
+        height: 330px;
+        width: 380px;
+        border: none;
+        border-radius: 20px;
+        margin: 10px;
+      }
+      .img3 img {
+        height: 330px;
+        width: 380px;
+        border: none;
+        border-radius: 20px;
+        margin: 10px;
+      }
+      .title1 {
+        font-size: 20px;
+        color: white;
+        margin: 0px 0px 10px 90px;
+        font-family: "Baloo Bhaina 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .data1 {
+        font-size: 13px;
+        color: whitesmoke;
+        text-shadow: gray;
+        margin: 0px 0px 0px 10px;
+        font-family: "Baloo Bhaina 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        
+      }
+      .title2 {
+        font-size: 20px;
+        color: white;
+        margin: 0px 0px 0px 120px;
+        font-family: "Baloo Bhaina 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+      }
+      .data2 {
+        font-size: 13px;
+        color: whitesmoke;
+        margin: 10px 0px 0px 10px;
+        font-family: "Baloo Bhaina 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .title3 {
+        font-size: 20px;
+        color: white;
+        margin: 0px 0px 0px 110px;
+        font-family: "Baloo Bhaina 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+      }
+      .data3 {
+        font-size: 13px;
+        color: whitesmoke;
+        margin: 10px 0px 0px 10px;
+        font-family: "Baloo Bhaina 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
+  </body>
+  <div class="head">Here you view the projects I made</div>
+  <div class="heading">
+    <div class="about">Projects</div>
+    <div class="button">
+      <a href="index.html"><button class="btn">Back</button></a>
+    </div>
+  </div>
+  <div class="section">
+    <div class="first">
+      <div class="img1"><img src="img1.png" alt="image" /></div>
+      <div class="title1">Form Validator</div>
+      <div class="data1">
+        Form Validator is a web-based project built using HTML, CSS, and
+        JavaScript. It ensures that user inputs are valid before submitting the
+        form, preventing incorrect or incomplete data entries. The project
+        features real-time input validation, custom error messages, and a
+        responsive design for an improved user experience.
+      </div>
+    </div>
+    <div class="second">
+      <div class="img2"><img src="img2.png" alt="image" /></div>
+      <div class="title2">Calculator</div>
+      <div class="data2">
+        Calculator is a web-based project developed using HTML, CSS, and
+        JavaScript. It performs basic arithmetic operations like addition,
+        subtraction, multiplication, and division with a simple and responsive
+        user interface. The project showcases your ability to create functional,
+        interactive applications using core web development technologies.
+      </div>
+    </div>
+    <div class="third">
+      <div class="img3"><img src="img3.png" alt="image" /></div>
+      <div class="title3">Tic-Tac-Toe Game</div>
+      <div class="data3">
+        Tic-Tac-Toe Game is a web-based project created using HTML, CSS, and
+        JavaScript. It allows two players to compete in the classic tic-tac-toe
+        game with a user-friendly interface and interactive gameplay. The
+        project demonstrates your skills in building responsive, logic-based web
+        applications using core frontend technologies.
+      </div>
+    </div>
+  </div>
+  
+</html>
